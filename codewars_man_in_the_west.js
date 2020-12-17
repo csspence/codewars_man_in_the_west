@@ -4,6 +4,6 @@ A western man is trying to find gold in a river. To do that, he passes a bucket 
 So, you need to check if there is gold in the bucket, and if so, return True/true. If not, return False/false.
 */
 
-function checkTheBucket(bucket){
-  //your code here
+const checkTheBucket = (bucket) => {
+  return bucket.toString().includes('gold') === true ? true : false; 
 }
